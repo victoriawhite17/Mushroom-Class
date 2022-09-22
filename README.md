@@ -17,13 +17,15 @@ This dataset is balanced between edible and poisonous mushrooms allowing us to g
 The only missing data was in stalk root. There were about 2400 entries as '?' or missing which is about 25% of our data for that feature. I dropped this feature because we have other feautures with characteristics of the mushroom stalk. Any method we use to fill in the missing data could result in a biased feature. The models used in this project are logistic regression and KNearest neighbor which both require the dataset to be scaled. However, all our data is categorical and will need to be OneHotEncoded which does not require any scaling. After the data is OneHotEncoded, it will be ready to use in our models.
 
 ## Results
+The graph below shows the amount of poisonous (blue bar) and edible (orange bar) mushrooms in our dataset. We see that there are slightly more edible mushrooms than poisonous. 
+
 ![image](https://user-images.githubusercontent.com/106834973/191843627-a60a6c01-6ebc-4976-aa91-4a05199e7183.png)
 
-This graph shows the amount of poisonous and edible  mushrooms in our dataset. We see that there are slightly more edible mushrooms than poisonous. 
+
+The graph below shows whether a mushroom is poisonous (orange) or edible (blue) based on spore print color. We see that there are a few spore print colors that are definitely safe and a few that are more likely poisonous. 
 
 ![spore_print](https://user-images.githubusercontent.com/106834973/191844026-7d7e90dd-0da1-436b-8c55-912dacc10235.png)
 
-This graph shows whether a mushroom is poisonous (orange) or edible (blue) based on spore print color. We see that there are a few spore print colors that are definitely safe and a few that are more likely poisonous. 
 
 ## Model
 KNeighbors model had the best predictions for this dataset. The KNN model has the least amount of false negative errors with 115 total. We want a lower false negative error because it is more costly to label a poisonous mushroom edible than it is to label an edible mushroom as poisonous.
