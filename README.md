@@ -8,7 +8,9 @@ Wild mushrooms are commonly gathered to be used for things such as cooking. When
 
 ## Data
 For this project, I used data from UCI Machine Learning. 
+
 Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
 This dataset is balanced between edible and poisonous mushrooms allowing us to gain a lot of information regarding features for classification. When classifying mushrooms, some important features to look at are odor, gill attachment, and spore print color. 
 
 ## Data Preparation
