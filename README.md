@@ -37,3 +37,6 @@ The KNN model had the best performance, but we could explore other models to see
 
 ## Limitations 
 The logistic regression model didn't perform better even after tuning the parameters. Another model could be used to better evaluate KNN's performance on our dataset. The KNN model was tuned, but we could explore other hyperparameters to see if any would help our predictions. 
+
+## For further information
+For additional questions, please contact victoria.white17@hotmail.com
