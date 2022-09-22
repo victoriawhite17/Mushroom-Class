@@ -14,7 +14,7 @@ Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ic
 This dataset is balanced between edible and poisonous mushrooms allowing us to gain a lot of information regarding features for classification. When classifying mushrooms, some important features to look at are odor, gill attachment, and spore print color. 
 
 ## Data Preparation
-The only missing data was in stalk root. There were about 2400 entries as '?' or missing which is about 25% of our data for that feature. I dropped this feature because we have other feautures with characteristics of the mushroom stalk. Any method we use to fill in the missing data could result in a biased feature. The models used in this project are logistic regression and KNearest neighbor which both require the dataset to be scaled. Before I could scale the data I used a OneHotEncoder to change our categorical data for our models. 
+The only missing data was in stalk root. There were about 2400 entries as '?' or missing which is about 25% of our data for that feature. I dropped this feature because we have other feautures with characteristics of the mushroom stalk. Any method we use to fill in the missing data could result in a biased feature. The models used in this project are logistic regression and KNearest neighbor which both require the dataset to be scaled. However, all our data is categorical and will need to be OneHotEncoded which does not require any scaling. After the data is OneHotEncoded, it will be ready to use in our models.
 
 ## Results
 ![image](https://user-images.githubusercontent.com/106834973/191843627-a60a6c01-6ebc-4976-aa91-4a05199e7183.png)
