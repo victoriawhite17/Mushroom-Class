@@ -1,4 +1,4 @@
-# Mushrooms:To Eat or Not To Eat
+# Mushrooms: To Eat or Not To Eat
 ## Using machine learning algorithms to classify whether a mushroom is edible or poisonous based on the different features of the mushroom.
 
 Victoria White
