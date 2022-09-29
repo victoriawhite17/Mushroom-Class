@@ -24,12 +24,12 @@ The only missing data was in stalk root. There were about 2400 entries as '?' or
 
 The graph below shows whether a mushroom is poisonous (orange) or edible (blue) based on spore print color. We see that there are a few spore print colors that are definitely safe and a few that are more likely poisonous. 
 
-![spore_print](https://user-images.githubusercontent.com/106834973/192344396-ce622c03-5dde-470d-bae5-a590526eda98.png)
+![spore print](https://user-images.githubusercontent.com/106834973/193132790-314dc224-b08b-4bf7-81f6-80d19c413739.jpg)
 
 ## Model
 KNeighbors model had the best predictions for this dataset. The KNN model has the least amount of false negative errors with 0 errors.. We want a lower false negative error because it is more costly to label a poisonous mushroom edible than it is to label an edible mushroom as poisonous.
 
-![confus](https://user-images.githubusercontent.com/106834973/192344274-162abc00-a20a-424a-814a-4251ce79f7a9.png)
+![confus_mushroom](https://user-images.githubusercontent.com/106834973/193132522-31f143a1-e507-4aef-a045-a66b321168b2.jpg)
 
 The logistic regression model had 26 false negatives whle the KNN model had 0. 
 
