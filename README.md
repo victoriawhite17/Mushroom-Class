@@ -40,4 +40,4 @@ When classifying mushrooms, some important features to look at are odor and spor
 This dataset has a high correlation between features. This correlation could make our model perform poorer on new data that provides new information.
 
 ## For further information
-For additional questions, please contact victoria.white17@hotmail.com
+For additional questions, please contact victoria.white1317@gmail.com
